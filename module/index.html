@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="test.js"></script>
+    <script type="module" src="main.mjs"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- 模块文件是有作用域的 是在那个模块文件 外面的取不到 -->
+    <script>
+        let repeatContent = test('Anderson is time-sense man')
+        console.log(repeatContent)
+    </script>
+</body>
+</html>
